@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -149.0, -993.0, 1397.0, 832.0 ],
+		"rect" : [ 219.0, -910.0, 1397.0, 832.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3995,9 +3995,9 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 889.0, -941.0, 663.0, 481.0 ],
+										"rect" : [ 115.0, -998.0, 663.0, 481.0 ],
 										"bglocked" : 0,
-										"openinpresentation" : 1,
+										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -4011,7 +4011,7 @@
 										"toptoolbarpinned" : 2,
 										"righttoolbarpinned" : 2,
 										"bottomtoolbarpinned" : 2,
-										"toolbars_unpinned_last_save" : 0,
+										"toolbars_unpinned_last_save" : 15,
 										"tallnewobj" : 0,
 										"boxanimatetime" : 200,
 										"enablehscroll" : 0,
@@ -15496,7 +15496,7 @@
 										"classnamespace" : "box",
 										"rect" : [ -38.0, -911.0, 771.0, 428.0 ],
 										"bglocked" : 0,
-										"openinpresentation" : 1,
+										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -15510,7 +15510,7 @@
 										"toptoolbarpinned" : 2,
 										"righttoolbarpinned" : 2,
 										"bottomtoolbarpinned" : 2,
-										"toolbars_unpinned_last_save" : 0,
+										"toolbars_unpinned_last_save" : 15,
 										"tallnewobj" : 0,
 										"boxanimatetime" : 200,
 										"enablehscroll" : 0,
@@ -20773,7 +20773,7 @@
 								"filename" : "ONF-2_4.wav",
 								"filekind" : "audiofile",
 								"id" : "u410006110",
-								"selection" : [ 0.178517397881997, 0.291225416036309 ],
+								"selection" : [ 0.145234493192133, 0.520423600605144 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1,
@@ -22698,29 +22698,29 @@
 			}
 , 			{
 				"name" : "vol-ctl~.maxpat",
-				"bootpath" : "~/Documents/SFtoPartialMIDI",
+				"bootpath" : "~/Documents/PartialPlayground",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "freqRounder.maxpat",
-				"bootpath" : "~/Documents/SFtoPartialMIDI",
+				"bootpath" : "~/Documents/PartialPlayground",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reSynthPart~.maxpat",
-				"bootpath" : "~/Documents/SFtoPartialMIDI",
+				"bootpath" : "~/Documents/PartialPlayground",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f2NoteName.maxpat",
-				"bootpath" : "~/Documents/MaxAbstractions/basics",
-				"patcherrelativepath" : "../MaxAbstractions/basics",
+				"bootpath" : "~/Documents/PartialPlayground",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -22733,7 +22733,7 @@
 			}
 , 			{
 				"name" : "convVerb.maxpat",
-				"bootpath" : "~/Documents/SFtoPartialMIDI",
+				"bootpath" : "~/Documents/PartialPlayground",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
