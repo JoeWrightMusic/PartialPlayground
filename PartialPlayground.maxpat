@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
+			"minor" : 5,
 			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 51.0, 53.0, 1408.0, 833.0 ],
+		"rect" : [ 0.0, 53.0, 1408.0, 833.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -313,22 +313,22 @@
 						"number[2]" : [ 90 ],
 						"number[3]" : [ 50 ],
 						"number[4]" : [ 8 ],
-						"number[5]" : [ 1024 ],
+						"number[5]" : [ 512 ],
 						"number[6]" : [ 0 ],
 						"number[7]" : [ 0 ],
-						"number[8]" : [ 0.0 ],
+						"number[8]" : [ -12.0 ],
 						"number[9]" : [ 100 ],
 						"playlist~" : [ 							{
 								"data" : 								{
 									"clips" : [ 										{
-											"absolutepath" : "/Users/joewright/Desktop/WA 1279.wav",
-											"filename" : "WA 1279.wav",
+											"absolutepath" : "/Users/joewright/Documents/Pd/AugmentedVocalityLiveElectronics/Pd/v2/BreakNoMoreSamps/VoxSpk-M.wav",
+											"filename" : "VoxSpk-M.wav",
 											"filekind" : "audiofile",
-											"id" : "u297001783",
+											"id" : "u327003049",
 											"loop" : 1,
 											"content_state" : 											{
-												"loop" : 1,
-												"speed" : 0.5
+												"pitchshift" : 2,
+												"loop" : 1
 											}
 
 										}
@@ -340,20 +340,20 @@
 						"slider" : [ 0.0 ],
 						"slider[1]" : [ 0.0 ],
 						"slider[2]" : [ 0.0 ],
-						"slider[3]" : [ 856.701129598146281 ],
-						"slider[4]" : [ 970.377014562055365 ],
-						"toggle" : [ 1 ],
-						"toggle[10]" : [ 1 ],
-						"toggle[11]" : [ 1 ],
-						"toggle[12]" : [ 1 ],
-						"toggle[13]" : [ 1 ],
-						"toggle[14]" : [ 1 ],
-						"toggle[15]" : [ 1 ],
-						"toggle[16]" : [ 1 ],
-						"toggle[17]" : [ 1 ],
-						"toggle[18]" : [ 1 ],
-						"toggle[19]" : [ 1 ],
-						"toggle[1]" : [ 1 ],
+						"slider[3]" : [ 703.574196437631372 ],
+						"slider[4]" : [ 1000.0 ],
+						"toggle" : [ 0 ],
+						"toggle[10]" : [ 0 ],
+						"toggle[11]" : [ 0 ],
+						"toggle[12]" : [ 0 ],
+						"toggle[13]" : [ 0 ],
+						"toggle[14]" : [ 0 ],
+						"toggle[15]" : [ 0 ],
+						"toggle[16]" : [ 0 ],
+						"toggle[17]" : [ 0 ],
+						"toggle[18]" : [ 0 ],
+						"toggle[19]" : [ 0 ],
+						"toggle[1]" : [ 0 ],
 						"toggle[20]" : [ 1 ],
 						"toggle[21]" : [ 1 ],
 						"toggle[22]" : [ 1 ],
@@ -364,7 +364,7 @@
 						"toggle[27]" : [ 1 ],
 						"toggle[28]" : [ 1 ],
 						"toggle[29]" : [ 1 ],
-						"toggle[2]" : [ 1 ],
+						"toggle[2]" : [ 0 ],
 						"toggle[30]" : [ 1 ],
 						"toggle[31]" : [ 1 ],
 						"toggle[32]" : [ 1 ],
@@ -375,25 +375,25 @@
 						"toggle[37]" : [ 1 ],
 						"toggle[38]" : [ 1 ],
 						"toggle[39]" : [ 1 ],
-						"toggle[3]" : [ 1 ],
+						"toggle[3]" : [ 0 ],
 						"toggle[40]" : [ 1 ],
 						"toggle[41]" : [ 0 ],
 						"toggle[42]" : [ 0 ],
-						"toggle[43]" : [ 1 ],
-						"toggle[44]" : [ 1 ],
+						"toggle[43]" : [ 0 ],
+						"toggle[44]" : [ 0 ],
 						"toggle[45]" : [ 1 ],
 						"toggle[46]" : [ 1 ],
-						"toggle[4]" : [ 1 ],
-						"toggle[5]" : [ 1 ],
-						"toggle[6]" : [ 1 ],
-						"toggle[7]" : [ 1 ],
-						"toggle[8]" : [ 1 ],
-						"toggle[9]" : [ 1 ],
+						"toggle[4]" : [ 0 ],
+						"toggle[5]" : [ 0 ],
+						"toggle[6]" : [ 0 ],
+						"toggle[7]" : [ 0 ],
+						"toggle[8]" : [ 0 ],
+						"toggle[9]" : [ 0 ],
 						"umenu" : [ 1 ],
 						"umenu[1]" : [ 0 ],
 						"umenu[2]" : [ 0 ],
 						"umenu[3]" : [ 0 ],
-						"umenu[4]" : [ 4 ],
+						"umenu[4]" : [ 3 ],
 						"umenu[5]" : [ 2 ],
 						"umenu[6]" : [ 0 ],
 						"umenu[7]" : [ 0 ],
@@ -483,8 +483,8 @@
 					"id" : "obj-190",
 					"maxclass" : "preset",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 683.768018126487732, 468.30630624294281, 100.0, 40.0 ],
 					"pattrstorage" : "partialPlayground",
 					"presentation" : 1,
@@ -671,7 +671,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -983,7 +983,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1668,7 +1668,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1845,7 +1845,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
+											"minor" : 5,
 											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -2108,7 +2108,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
+											"minor" : 5,
 											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -5257,7 +5257,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -5432,14 +5432,14 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
+											"minor" : 5,
 											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 113.0, -964.0, 664.0, 483.0 ],
+										"rect" : [ 113.0, 53.0, 664.0, 483.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -8523,7 +8523,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
+											"minor" : 5,
 											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -8580,7 +8580,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
+															"minor" : 5,
 															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -8963,7 +8963,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
+															"minor" : 5,
 															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -9346,7 +9346,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
+															"minor" : 5,
 															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -9974,7 +9974,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
+															"minor" : 5,
 															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -10369,7 +10369,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
+															"minor" : 5,
 															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -11557,7 +11557,7 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
+											"minor" : 5,
 											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -11603,7 +11603,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
+															"minor" : 5,
 															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -12944,7 +12944,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
+															"minor" : 5,
 															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -14285,7 +14285,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
+															"minor" : 5,
 															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -15650,7 +15650,7 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
+															"minor" : 5,
 															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
@@ -17239,14 +17239,14 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
+											"minor" : 5,
 											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ -38.0, -911.0, 769.0, 431.0 ],
+										"rect" : [ 0.0, 53.0, 769.0, 431.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -17342,7 +17342,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 11.857142686843872, -135.082897394895554, 81.0, 22.0 ],
-													"text" : "246.941651"
+													"text" : "138.591316"
 												}
 
 											}
@@ -17403,7 +17403,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 11.857142686843872, -91.0, 116.142857313156128, 22.0 ],
-													"text" : "246.941651 0.012944 0."
+													"text" : "138.591316 0.254023 0."
 												}
 
 											}
@@ -22521,6 +22521,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 234.0, 53.743243277072906, 190.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 325.212814728442993, 133.5, 146.864033699035645, 22.0 ],
@@ -22539,6 +22540,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 234.0, 26.243243277072906, 190.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 483.319222092664518, 133.5, 146.864033699035645, 22.0 ],
@@ -22557,6 +22559,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 234.0, 110.5, 190.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 133.5, 146.864033699035645, 22.0 ],
@@ -22575,6 +22578,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 434.370000000000005, 26.243243277072906, 221.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 830.375158557283953, 133.5, 177.864033699035645, 22.0 ],
@@ -22593,6 +22597,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 434.370000000000005, 53.743243277072906, 221.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 641.425629456885986, 133.5, 177.864033699035645, 22.0 ],
@@ -22611,6 +22616,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 434.370000000000005, 81.243243277072906, 221.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1019.324687657682034, 133.5, 177.864033699035645, 22.0 ],
@@ -22629,6 +22635,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 434.370000000000005, 110.5, 221.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1208.274216758080001, 133.5, 177.864033699035645, 22.0 ],
@@ -22647,6 +22654,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 234.0, 83.0, 190.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 167.106407364221496, 133.5, 146.864033699035616, 22.0 ],
@@ -22665,14 +22673,14 @@
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/joewright/Desktop/WA 1279.wav",
-								"filename" : "WA 1279.wav",
+								"absolutepath" : "/Users/joewright/Documents/Pd/AugmentedVocalityLiveElectronics/Pd/v2/BreakNoMoreSamps/VoxSpk-M.wav",
+								"filename" : "VoxSpk-M.wav",
 								"filekind" : "audiofile",
-								"id" : "u297001783",
+								"id" : "u327003049",
 								"loop" : 1,
 								"content_state" : 								{
-									"loop" : 1,
-									"speed" : 0.5
+									"pitchshift" : 2,
+									"loop" : 1
 								}
 
 							}
@@ -22693,6 +22701,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 234.0, 166.0, 857.0, 183.0 ],
 					"pitchcorrection" : 0,
+					"pitchshift" : [ 2 ],
+					"pitchshiftcent" : [ 1200 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.096086672672982, 160.5, 1377.724481320917675, 181.0 ],
 					"quality" : "better",
@@ -25099,9 +25109,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "WA 1279.wav",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../Desktop",
+				"name" : "VoxSpk-M.wav",
+				"bootpath" : "~/Documents/Pd/AugmentedVocalityLiveElectronics/Pd/v2/BreakNoMoreSamps",
+				"patcherrelativepath" : "../Pd/AugmentedVocalityLiveElectronics/Pd/v2/BreakNoMoreSamps",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
